@@ -1,0 +1,43 @@
+body{
+	background:url(http://www.naturephotographysimplified.com/wp-content/uploads/2015/08/Top-12-Bird-Photographers-in-the-World-Greg-Basco-DGPstock-birds-61.jpg);
+	background-size: 100% 100%;
+	background-position: center;
+	font-family: lato;
+	color: rgb(255, 255, 15);
+}
+
+html{
+	height: 100%;
+}
+#newm{
+	background-color: rgba(10, 12, 15, 0.4);
+}
+#noc{
+	color: black;
+}
+
+
+#content{
+
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+
+hr{
+	max-width: 90%;
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,1);
+}

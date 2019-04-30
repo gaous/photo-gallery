@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+
+	<h1>Register yourself</h1>
+
+<form action="https://www.wikipedia.org" method="GET">
+	<label for="firstName">First name:</label>
+	<input name="firstName" id="firstName" type="text" placeholder="firstName" value="" required>
+
+
+	<label for="lastName" >Last name:</label>
+	<input name="lastName" id="lastName" type="text" placeholder="lastName" value="" required>
+<br>
+<div>
+	<label>Gender:</label>
+	<label for="Male">Male</label>
+	<input type="radio" name="Gender" id="Male" value="Male" required>
+
+	<label for="Female">Female</label>
+	<input type="radio" name="Gender" id="Female" value="Female" required>
+</div>
+	
+<br>
+
+	<label for="Email">Email:</label>
+	<input type="Email" id="Email" name="Email" placeholder="Email" value="" required>
+
+	<label for="Password">Password:</label>
+	<input type="Password" name="Password" id="Password" value="" minlength="5" maxlength="10" placeholder="Password" title="Password must be between 5 and 10 characters" required>
+<br>
+	
+	<label for="Birthday">Birthday:</label>
+	<select id="Birthday" name="Month" required>
+		<option value="0">Month</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+	</select>
+	<select id="Birthday" name="Day" required>
+		<option value="0">Day</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+	</select>
+	<select id="Birthday" name="Year" required>
+		<option value="0">Year</option>
+		<option value="2018">2018</option>
+		<option value="2017">2017</option>
+		<option value="2016">2016</option>
+	</select>
+<br>
+	<label for="agree">I agree to the terms and conditions</label>
+	<input type="checkbox" name="agree" id="agree" required>
+<br>
+	<input type="submit">
+</form>
+</body>
+</html>
